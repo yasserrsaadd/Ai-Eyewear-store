@@ -156,12 +156,58 @@
                 >
               </li>
 
-              <li class="nav-item">
-                <a href="#sunglasses" class="nav-link">sunglasses</a>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarScrollingDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Sunglasses
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarScrollingDropdown"
+                >
+                  <li>
+                    <a class="dropdown-item" href="#menSunglasses">Men</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#womenSunglasses">Women</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#kids">Kids</a>
+                  </li>
+                </ul>
               </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="#eyeglasses">Eyeglasses</a>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarScrollingDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Eyeglasses
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarScrollingDropdown"
+                >
+                  <li>
+                    <a class="dropdown-item" href="#menEyeglasses">Men</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#womenEyeglasses">Women</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#kids">Kids</a>
+                  </li>
+                </ul>
               </li>
 
               <li class="nav-item">
@@ -189,11 +235,7 @@
           </figure>
           <div class="content">
             <p class="title">Shaun Matthews</p>
-            <span class="caption"
-              >Lorem Ipsum has been the industry's standard dummy text ever
-              since the 1500s, when an unknown printer took a galley of type and
-              scrambled it to make a type specimen book.</span
-            >
+            <span class="caption"></span>
           </div>
         </div>
         <div class="swiper-slide">
@@ -208,11 +250,7 @@
           </figure>
           <div class="content">
             <p class="title">Alexis Berry</p>
-            <span class="caption"
-              >Lorem Ipsum has been the industry's standard dummy text ever
-              since the 1500s, when an unknown printer took a galley of type and
-              scrambled it to make a type specimen book.</span
-            >
+            <span class="caption"></span>
           </div>
         </div>
         <div class="swiper-slide">
@@ -229,11 +267,7 @@
           </figure>
           <div class="content">
             <p class="title">Billie Pierce</p>
-            <span class="caption"
-              >Lorem Ipsum has been the industry's standard dummy text ever
-              since the 1500s, when an unknown printer took a galley of type and
-              scrambled it to make a type specimen book.</span
-            >
+            <span class="caption"></span>
           </div>
         </div>
         <div class="swiper-slide">
@@ -250,11 +284,7 @@
           </figure>
           <div class="content">
             <p class="title">Trevor Copeland</p>
-            <span class="caption"
-              >Lorem Ipsum has been the industry's standard dummy text ever
-              since the 1500s, when an unknown printer took a galley of type and
-              scrambled it to make a type specimen book.</span
-            >
+            <span class="caption"></span>
           </div>
         </div>
         <div class="swiper-slide">
@@ -271,11 +301,6 @@
           </figure>
           <div class="content">
             <p class="title">Bernadette Newman</p>
-            <span class="caption"
-              >Lorem Ipsum has been the industry's standard dummy text ever
-              since the 1500s, when an unknown printer took a galley of type and
-              scrambled it to make a type specimen book.</span
-            >
           </div>
         </div>
       </div>
@@ -420,6 +445,7 @@
         <form class="d-flex">
           <input
             id="searchInput"
+            name="searchInput"
             class="form-control me-2"
             type="search"
             placeholder="Search Eyewear"
@@ -434,10 +460,441 @@
 
       <br /><br /><br />
 
+      <!-- Men Eyeglasss  -->
+      <!--  products  -->
+      <h3 id="menEyeglasses" class="categorie">Men Eyeglass</h3>
+      <div class="items-container">
+        <div class="card-1 card">
+          <h4 class="product-title">CLUBMASTER OPTICS</h4>
+          <img
+            class="product-image"
+            src="https://images2.ray-ban.com//cdn-record-files-pi/9f81c8ee-571c-4e24-aa12-a358001ddb43/c12584a8-28ee-4a99-8ba6-ad33014b4b22/0RX5154__2000__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+          />
+          <div class="product-details">
+            <button class="view-button">
+              View&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+          <div class="favorite">
+            <button
+              class="add-to-favorites"
+              onclick="toggleHeartColor(this)"
+              onclick="addToFavorites(this)"
+            >
+              <i
+                id="heartIcon"
+                class="fa-solid fa-heart"
+                style="color: #8a8a8a"
+              ></i>
+            </button>
+          </div>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">8500EGP</span>
+        </div>
+
+        <div class="card-2 card">
+          <h4 class="product-title">DRAGON EDITION</h4>
+          <img
+            class="product-image"
+            src="https://images2.ray-ban.com//cdn-record-files-pi/c867fa63-8524-4fcb-b5e7-b036010904ef/b45d58ab-f5ad-44ce-8d90-b036010908b4/0RX4379VD__8343__P21__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+            alt=""
+          />
+          <div class="product-details">
+            <button class="view-button">
+              View&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+          <div class="favorite">
+            <button class="add-to-favorites" onclick="addToFavorites(this)">
+              <i class="fa-solid fa-heart" style="color: #8a8a8a"></i>
+            </button>
+          </div>
+
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">9175EGP</span>
+        </div>
+        <div class="card-3 card">
+          <h4 class="product-title">AVIATOR OPTICS</h4>
+          <img
+            class="product-image"
+            src="https://images2.ray-ban.com//cdn-record-files-pi/bfb86ed4-fd86-440e-a64b-a6a6001427f0/414db0ca-0eba-4def-9b74-ad33013ea39c/0RX6489__2500__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+            alt=""
+          />
+          <div class="product-details">
+            <button class="view-button">
+              View&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+          <div class="favorite">
+            <button
+              class="add-to-favorites"
+              onclick="toggleHeartColor(this)"
+              onclick="addToFavorites(this)"
+            >
+              <i
+                id="heartIcon"
+                class="fa-solid fa-heart"
+                style="color: #8a8a8a"
+              ></i>
+            </button>
+          </div>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">1150EGP</span>
+        </div>
+        <div class="card-4 card">
+          <h4 class="product-title">ROUND METAL</h4>
+          <img
+            class="product-image"
+            src="https://images2.ray-ban.com//cdn-record-files-pi/ba0c2cc9-631b-4109-8200-a68a00a51d25/fd387a3d-ac83-49db-871e-acfe0046bf84/0RX3447V__2500__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+            alt=""
+          />
+          <div class="product-details">
+            <button class="view-button">
+              View&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+          <div class="favorite">
+            <button
+              class="add-to-favorites"
+              onclick="toggleHeartColor(this)"
+              onclick="addToFavorites(this)"
+            >
+              <i
+                id="heartIcon"
+                class="fa-solid fa-heart"
+                style="color: #8a8a8a"
+              ></i>
+            </button>
+          </div>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">1575EGP</span>
+        </div>
+
+        <div class="card-5 card">
+          <h4 class="product-title">MEGA WAYFARER</h4>
+          <img
+            class="product-image"
+            src="https://images2.ray-ban.com//cdn-record-files-pi/f5d92e7d-42b4-42c0-9815-af42014cc7db/8e6415eb-5f57-41ca-8687-af42016c091d/0RX0840V__2000__P21__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2https://images2.ray-ban.com//cdn-record-files-pi/f5d92e7d-42b4-42c0-9815-af42014cc7db/8e6415eb-5f57-41ca-8687-af42016c091d/0RX0840V__2000__P21__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+            alt=""
+          />
+          <div class="product-details">
+            <button class="view-button">
+              View&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+          <div class="favorite">
+            <button
+              class="add-to-favorites"
+              onclick="toggleHeartColor(this)"
+              onclick="addToFavorites(this)"
+            >
+              <i
+                id="heartIcon"
+                class="fa-solid fa-heart"
+                style="color: #8a8a8a"
+              ></i>
+            </button>
+          </div>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">1230EGP</span>
+        </div>
+
+        <div class="card-6 card">
+          <h4 class="product-title">MEGA HAWKEYE</h4>
+          <img
+            class="product-image"
+            src="https://images2.ray-ban.com//cdn-record-files-pi/cb00ef99-1350-4ba6-b90f-afe300f6a3e6/83462cde-7259-437d-abfa-afe50000ebd5/0RX0298V__2034__P21__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+            alt=""
+          />
+          <div class="product-details">
+            <button class="view-button">
+              View&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+          <div class="favorite">
+            <button
+              class="add-to-favorites"
+              onclick="toggleHeartColor(this)"
+              onclick="addToFavorites(this)"
+            >
+              <i
+                id="heartIcon"
+                class="fa-solid fa-heart"
+                style="color: #8a8a8a"
+              ></i>
+            </button>
+          </div>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">1230EGP</span>
+        </div>
+
+        <div class="card-7 card">
+          <h4 class="product-title">RB5228 OPTICS</h4>
+          <img
+            class="product-image"
+            src="https://images2.ray-ban.com//cdn-record-files-pi/d8d6006d-de2d-4c4f-9085-a358016cf2fe/23d715d2-21c4-4503-beeb-ad33012fb1ca/0RX5228__2000__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+            alt=""
+          />
+          <div class="product-details">
+            <button class="view-button">
+              View&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+          <div class="favorite">
+            <button
+              class="add-to-favorites"
+              onclick="toggleHeartColor(this)"
+              onclick="addToFavorites(this)"
+            >
+              <i
+                id="heartIcon"
+                class="fa-solid fa-heart"
+                style="color: #8a8a8a"
+              ></i>
+            </button>
+          </div>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">1400EGP</span>
+        </div>
+
+        <div class="card-8 card">
+          <h4 class="product-title">RB5406 OPTICS</h4>
+          <img
+            class="product-image"
+            src="https://images2.ray-ban.com//cdn-record-files-pi/cba98781-0b01-4b78-820c-af4700c794bd/01277a7e-eed1-4df7-af5a-af4700c7972d/0RX5406F__2001__P21__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+            alt=""
+          />
+          <div class="product-details">
+            <button class="view-button">
+              View&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+          <div class="favorite">
+            <button
+              class="add-to-favorites"
+              onclick="toggleHeartColor(this)"
+              onclick="addToFavorites(this)"
+            >
+              <i
+                id="heartIcon"
+                class="fa-solid fa-heart"
+                style="color: #8a8a8a"
+              ></i>
+            </button>
+          </div>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">920EGP</span>
+        </div>
+
+        <div class="card-9 card">
+          <h4 class="product-title">JA-JO OPTICS</h4>
+          <img
+            class="product-image"
+            src="https://images2.ray-ban.com//cdn-record-files-pi/7fc70a4d-befb-47c0-90ae-a79201563b74/2a58d0ff-f292-456a-b0c7-a99b0005efa1/0RX6392__2969_030A.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+            alt=""
+          />
+          <div class="product-details">
+            <button class="view-button">
+              View&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+          <div class="favorite">
+            <button
+              class="add-to-favorites"
+              onclick="toggleHeartColor(this)"
+              onclick="addToFavorites(this)"
+            >
+              <i
+                id="heartIcon"
+                class="fa-solid fa-heart"
+                style="color: #8a8a8a"
+              ></i>
+            </button>
+          </div>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">1700EGP</span>
+        </div>
+
+        <div class="card-10 card">
+          <h4 class="product-title">RB6375 OPTICS</h4>
+          <img
+            class="product-image"
+            src="https://images2.ray-ban.com//cdn-record-files-pi/a762fefe-907e-481a-a025-a72300d29bea/f325fa0d-deb7-45e4-aadf-ad570160e501/0RX6375__2944__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+            alt=""
+          />
+          <div class="product-details">
+            <button class="view-button">
+              View&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+          <div class="favorite">
+            <button
+              class="add-to-favorites"
+              onclick="toggleHeartColor(this)"
+              onclick="addToFavorites(this)"
+            >
+              <i
+                id="heartIcon"
+                class="fa-solid fa-heart"
+                style="color: #8a8a8a"
+              ></i>
+            </button>
+          </div>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">2400EGP</span>
+        </div>
+
+        <div class="card-11 card">
+          <h4 class="product-title">RB6335 OPTICS</h4>
+          <img
+            class="product-image"
+            src="https://images2.ray-ban.com//cdn-record-files-pi/0325fe4d-d752-4632-913e-a44900178762/ab60ebef-1660-4a92-8458-ad9500f2b971/0RX6335__2503__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+            alt=""
+          />
+          <div class="product-details">
+            <button class="view-button">
+              View&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+          <div class="favorite">
+            <button
+              class="add-to-favorites"
+              onclick="toggleHeartColor(this)"
+              onclick="addToFavorites(this)"
+            >
+              <i
+                id="heartIcon"
+                class="fa-solid fa-heart"
+                style="color: #8a8a8a"
+              ></i>
+            </button>
+          </div>
+
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">2200EGP</span>
+        </div>
+
+        <div class="card-12 card">
+          <h4 class="product-title">RB7025 OPTIC</h4>
+          <img
+            class="product-image"
+            src="https://images2.ray-ban.com//cdn-record-files-pi/9fa5d048-22a4-40bb-b392-a4c2007e5f72/c074019c-0303-4f3e-a3a9-ae9300c76882/0RX7025__2077__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+            alt=""
+          />
+          <div class="product-details">
+            <button class="view-button">
+              View&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+          <div class="favorite">
+            <button
+              class="add-to-favorites"
+              onclick="toggleHeartColor(this)"
+              onclick="addToFavorites(this)"
+            >
+              <i
+                id="heartIcon"
+                class="fa-solid fa-heart"
+                style="color: #8a8a8a"
+              ></i>
+            </button>
+          </div>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">1200EGP</span>
+        </div>
+
+        <div class="card-13 card">
+          <h4 class="product-title">HAWKEYE OPTICS</h4>
+          <img
+            class="product-image"
+            src="https://images2.ray-ban.com//cdn-record-files-pi/7bf3b8df-ef37-47cd-ad88-acb8001e2475/bd264845-a3ca-4662-ad5b-acb8001e25c7/0RX5398__2144__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+            alt=""
+          />
+          <div class="product-details">
+            <button class="view-button">
+              View&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+          <div class="favorite">
+            <button
+              class="add-to-favorites"
+              onclick="toggleHeartColor(this)"
+              onclick="addToFavorites(this)"
+            >
+              <i
+                id="heartIcon"
+                class="fa-solid fa-heart"
+                style="color: #8a8a8a"
+              ></i>
+            </button>
+          </div>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">1280EGP</span>
+        </div>
+
+        <div class="card-14 card">
+          <h4 class="product-title">RB5279 OPTICS</h4>
+          <img
+            class="product-image"
+            src="https://images2.ray-ban.com//cdn-record-files-pi/206ecebe-4758-42b0-b2f7-a3580177ccbf/9d3dab21-ac5c-4657-a23c-afc800b3b442/0RX5279__2000__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+            alt=""
+          />
+          <div class="product-details">
+            <button class="view-button">
+              View&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+          <div class="favorite">
+            <button
+              class="add-to-favorites"
+              onclick="toggleHeartColor(this)"
+              onclick="addToFavorites(this)"
+            >
+              <i
+                id="heartIcon"
+                class="fa-solid fa-heart"
+                style="color: #8a8a8a"
+              ></i>
+            </button>
+          </div>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">980EGP</span>
+        </div>
+
+        <div class="card-14 card">
+          <h4 class="product-title">RB5228 OPTICS</h4>
+          <img
+            class="product-image"
+            src="https://images2.ray-ban.com//cdn-record-files-pi/d8d6006d-de2d-4c4f-9085-a358016cf2fe/23d715d2-21c4-4503-beeb-ad33012fb1ca/0RX5228__2000__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+            alt=""
+          />
+          <div class="product-details">
+            <button class="view-button">
+              View&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+          <div class="favorite">
+            <button
+              class="add-to-favorites"
+              onclick="toggleHeartColor(this)"
+              onclick="addToFavorites(this)"
+            >
+              <i
+                id="heartIcon"
+                class="fa-solid fa-heart"
+                style="color: #8a8a8a"
+              ></i>
+            </button>
+          </div>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">100EGP</span>
+        </div>
+      </div>
+
       <!-- Sunglasses -->
 
       <!--  products  -->
-      <h3 id="sunglasses" class="categorie">sunglasses</h3>
+      <h3 id="menSunglasses" class="categorie">Men Sunglasses</h3>
       <div class="items-container">
         <div class="card-1 card">
           <h4 class="product-title">ORIGINAL WAYFARER</h4>
@@ -888,15 +1345,14 @@
         </div>
       </div>
 
-      <!-- Eyeglasss  -->
-      <!--  products  -->
-      <h3 id="eyeglasses" class="categorie">eyeglasses</h3>
+      <!-- Kids -->
+      <h3 id="kids" class="categorie">Kids</h3>
       <div class="items-container">
         <div class="card-1 card">
-          <h4 class="product-title">CLUBMASTER OPTICS</h4>
+          <h4 class="product-title">CLUBMASTER Kids</h4>
           <img
             class="product-image"
-            src="https://images2.ray-ban.com//cdn-record-files-pi/9f81c8ee-571c-4e24-aa12-a358001ddb43/c12584a8-28ee-4a99-8ba6-ad33014b4b22/0RX5154__2000__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+            src="https://images.ray-ban.com/is/image/RayBan/8056597861267__002.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
           />
           <div class="product-details">
             <button class="view-button">
@@ -921,10 +1377,10 @@
         </div>
 
         <div class="card-2 card">
-          <h4 class="product-title">DRAGON EDITION</h4>
+          <h4 class="product-title">DRAGON Kids</h4>
           <img
             class="product-image"
-            src="https://images2.ray-ban.com//cdn-record-files-pi/c867fa63-8524-4fcb-b5e7-b036010904ef/b45d58ab-f5ad-44ce-8d90-b036010908b4/0RX4379VD__8343__P21__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+            src="https://images.ray-ban.com/is/image/RayBan/8056597888981__002.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
             alt=""
           />
           <div class="product-details">
@@ -942,10 +1398,10 @@
           <span class="product-price">9175EGP</span>
         </div>
         <div class="card-3 card">
-          <h4 class="product-title">AVIATOR OPTICS</h4>
+          <h4 class="product-title">AVIATOR kids</h4>
           <img
             class="product-image"
-            src="https://images2.ray-ban.com//cdn-record-files-pi/bfb86ed4-fd86-440e-a64b-a6a6001427f0/414db0ca-0eba-4def-9b74-ad33013ea39c/0RX6489__2500__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+            src="https://images.ray-ban.com/is/image/RayBan/8056597861168__002.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
             alt=""
           />
           <div class="product-details">
@@ -970,7 +1426,7 @@
           <span class="product-price">1150EGP</span>
         </div>
         <div class="card-4 card">
-          <h4 class="product-title">ROUND METAL</h4>
+          <h4 class="product-title">ROUND kids</h4>
           <img
             class="product-image"
             src="https://images2.ray-ban.com//cdn-record-files-pi/ba0c2cc9-631b-4109-8200-a68a00a51d25/fd387a3d-ac83-49db-871e-acfe0046bf84/0RX3447V__2500__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
@@ -999,10 +1455,10 @@
         </div>
 
         <div class="card-5 card">
-          <h4 class="product-title">MEGA WAYFARER</h4>
+          <h4 class="product-title">WAYFARER kids</h4>
           <img
             class="product-image"
-            src="https://images2.ray-ban.com//cdn-record-files-pi/f5d92e7d-42b4-42c0-9815-af42014cc7db/8e6415eb-5f57-41ca-8687-af42016c091d/0RX0840V__2000__P21__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2https://images2.ray-ban.com//cdn-record-files-pi/f5d92e7d-42b4-42c0-9815-af42014cc7db/8e6415eb-5f57-41ca-8687-af42016c091d/0RX0840V__2000__P21__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+            src="https://images2.ray-ban.com//cdn-record-files-pi/87293432-79c0-4ace-8b02-abfe00a229a5/33941442-0a0a-4caf-90ac-abfe00c19085/0RJ9071S__70624L_030A.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
             alt=""
           />
           <div class="product-details">
@@ -1028,7 +1484,7 @@
         </div>
 
         <div class="card-6 card">
-          <h4 class="product-title">MEGA HAWKEYE</h4>
+          <h4 class="product-title">HAWKEYE Kids</h4>
           <img
             class="product-image"
             src="https://images2.ray-ban.com//cdn-record-files-pi/cb00ef99-1350-4ba6-b90f-afe300f6a3e6/83462cde-7259-437d-abfa-afe50000ebd5/0RX0298V__2034__P21__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
@@ -1057,7 +1513,7 @@
         </div>
 
         <div class="card-7 card">
-          <h4 class="product-title">RB5228 OPTICS</h4>
+          <h4 class="product-title">Kids R9</h4>
           <img
             class="product-image"
             src="https://images2.ray-ban.com//cdn-record-files-pi/d8d6006d-de2d-4c4f-9085-a358016cf2fe/23d715d2-21c4-4503-beeb-ad33012fb1ca/0RX5228__2000__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
@@ -1086,7 +1542,7 @@
         </div>
 
         <div class="card-8 card">
-          <h4 class="product-title">RB5406 OPTICS</h4>
+          <h4 class="product-title">Roundly</h4>
           <img
             class="product-image"
             src="https://images2.ray-ban.com//cdn-record-files-pi/cba98781-0b01-4b78-820c-af4700c794bd/01277a7e-eed1-4df7-af5a-af4700c7972d/0RX5406F__2001__P21__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
@@ -1118,7 +1574,7 @@
           <h4 class="product-title">JA-JO OPTICS</h4>
           <img
             class="product-image"
-            src="https://images2.ray-ban.com//cdn-record-files-pi/7fc70a4d-befb-47c0-90ae-a79201563b74/2a58d0ff-f292-456a-b0c7-a99b0005efa1/0RX6392__2969_030A.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+            src="https://images.ray-ban.com/is/image/RayBan/8056597537896__002.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
             alt=""
           />
           <div class="product-details">
@@ -1144,7 +1600,7 @@
         </div>
 
         <div class="card-10 card">
-          <h4 class="product-title">RB6375 OPTICS</h4>
+          <h4 class="product-title">Dragon kids</h4>
           <img
             class="product-image"
             src="https://images2.ray-ban.com//cdn-record-files-pi/a762fefe-907e-481a-a025-a72300d29bea/f325fa0d-deb7-45e4-aadf-ad570160e501/0RX6375__2944__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
@@ -1203,7 +1659,7 @@
         </div>
 
         <div class="card-12 card">
-          <h4 class="product-title">RB7025 OPTIC</h4>
+          <h4 class="product-title">Greated kids</h4>
           <img
             class="product-image"
             src="https://images2.ray-ban.com//cdn-record-files-pi/9fa5d048-22a4-40bb-b392-a4c2007e5f72/c074019c-0303-4f3e-a3a9-ae9300c76882/0RX7025__2077__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
@@ -1232,7 +1688,7 @@
         </div>
 
         <div class="card-13 card">
-          <h4 class="product-title">HAWKEYE OPTICS</h4>
+          <h4 class="product-title">HAWKEYE kids</h4>
           <img
             class="product-image"
             src="https://images2.ray-ban.com//cdn-record-files-pi/7bf3b8df-ef37-47cd-ad88-acb8001e2475/bd264845-a3ca-4662-ad5b-acb8001e25c7/0RX5398__2144__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
@@ -1261,7 +1717,7 @@
         </div>
 
         <div class="card-14 card">
-          <h4 class="product-title">RB5279 OPTICS</h4>
+          <h4 class="product-title">Child OPTICS</h4>
           <img
             class="product-image"
             src="https://images2.ray-ban.com//cdn-record-files-pi/206ecebe-4758-42b0-b2f7-a3580177ccbf/9d3dab21-ac5c-4657-a23c-afc800b3b442/0RX5279__2000__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
@@ -1294,6 +1750,866 @@
           <img
             class="product-image"
             src="https://images2.ray-ban.com//cdn-record-files-pi/d8d6006d-de2d-4c4f-9085-a358016cf2fe/23d715d2-21c4-4503-beeb-ad33012fb1ca/0RX5228__2000__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+            alt=""
+          />
+          <div class="product-details">
+            <button class="view-button">
+              View&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+          <div class="favorite">
+            <button
+              class="add-to-favorites"
+              onclick="toggleHeartColor(this)"
+              onclick="addToFavorites(this)"
+            >
+              <i
+                id="heartIcon"
+                class="fa-solid fa-heart"
+                style="color: #8a8a8a"
+              ></i>
+            </button>
+          </div>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">100EGP</span>
+        </div>
+      </div>
+
+      <!-- Women Eyelasses -->
+      <h3 id="womenEyeglasses" class="categorie">Women Eyeglasses</h3>
+      <div class="items-container">
+        <div class="card-1 card">
+          <h4 class="product-title">CLUBMASTER</h4>
+          <img
+            class="product-image"
+            src="https://images.ray-ban.com/is/image/RayBan/8053672278361__002.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+          />
+          <div class="product-details">
+            <button class="view-button">
+              View&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+          <div class="favorite">
+            <button
+              class="add-to-favorites"
+              onclick="toggleHeartColor(this)"
+              onclick="addToFavorites(this)"
+            >
+              <i
+                id="heartIcon"
+                class="fa-solid fa-heart"
+                style="color: #8a8a8a"
+              ></i>
+            </button>
+          </div>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">8500EGP</span>
+        </div>
+
+        <div class="card-2 card">
+          <h4 class="product-title">DRAGON</h4>
+          <img
+            class="product-image"
+            src="https://images2.ray-ban.com//cdn-record-files-pi/2b10fe8d-f5a7-4dd5-97ca-a3570164314d/2d1db0b8-9f8e-463d-8950-ae9300c37f20/0RX5206__2445__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+            alt=""
+          />
+          <div class="product-details">
+            <button class="view-button">
+              View&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+          <div class="favorite">
+            <button class="add-to-favorites" onclick="addToFavorites(this)">
+              <i class="fa-solid fa-heart" style="color: #8a8a8a"></i>
+            </button>
+          </div>
+
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">9175EGP</span>
+        </div>
+        <div class="card-3 card">
+          <h4 class="product-title">AVIATOR</h4>
+          <img
+            class="product-image"
+            src="https://images.ray-ban.com/is/image/RayBan/8053672552065__002.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+            alt=""
+          />
+          <div class="product-details">
+            <button class="view-button">
+              View&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+          <div class="favorite">
+            <button
+              class="add-to-favorites"
+              onclick="toggleHeartColor(this)"
+              onclick="addToFavorites(this)"
+            >
+              <i
+                id="heartIcon"
+                class="fa-solid fa-heart"
+                style="color: #8a8a8a"
+              ></i>
+            </button>
+          </div>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">1150EGP</span>
+        </div>
+        <div class="card-4 card">
+          <h4 class="product-title">ROUND</h4>
+          <img
+            class="product-image"
+            src="https://images2.ray-ban.com//cdn-record-files-pi/58c83417-936c-43df-b6da-a63200251306/f40c9405-49ce-4919-8601-a73800373537/0RX6377__2909_030A.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+            alt=""
+          />
+          <div class="product-details">
+            <button class="view-button">
+              View&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+          <div class="favorite">
+            <button
+              class="add-to-favorites"
+              onclick="toggleHeartColor(this)"
+              onclick="addToFavorites(this)"
+            >
+              <i
+                id="heartIcon"
+                class="fa-solid fa-heart"
+                style="color: #8a8a8a"
+              ></i>
+            </button>
+          </div>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">1575EGP</span>
+        </div>
+
+        <div class="card-5 card">
+          <h4 class="product-title">WAYFARER</h4>
+          <img
+            class="product-image"
+            src="https://images.ray-ban.com/is/image/RayBan/8053672683912__002.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+            alt=""
+          />
+          <div class="product-details">
+            <button class="view-button">
+              View&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+          <div class="favorite">
+            <button
+              class="add-to-favorites"
+              onclick="toggleHeartColor(this)"
+              onclick="addToFavorites(this)"
+            >
+              <i
+                id="heartIcon"
+                class="fa-solid fa-heart"
+                style="color: #8a8a8a"
+              ></i>
+            </button>
+          </div>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">1230EGP</span>
+        </div>
+
+        <div class="card-6 card">
+          <h4 class="product-title">HAWKEYE Kids</h4>
+          <img
+            class="product-image"
+            src="https://images2.ray-ban.com//cdn-record-files-pi/cb00ef99-1350-4ba6-b90f-afe300f6a3e6/83462cde-7259-437d-abfa-afe50000ebd5/0RX0298V__2034__P21__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+            alt=""
+          />
+          <div class="product-details">
+            <button class="view-button">
+              View&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+          <div class="favorite">
+            <button
+              class="add-to-favorites"
+              onclick="toggleHeartColor(this)"
+              onclick="addToFavorites(this)"
+            >
+              <i
+                id="heartIcon"
+                class="fa-solid fa-heart"
+                style="color: #8a8a8a"
+              ></i>
+            </button>
+          </div>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">1230EGP</span>
+        </div>
+
+        <div class="card-7 card">
+          <h4 class="product-title">R9</h4>
+          <img
+            class="product-image"
+            src="https://images2.ray-ban.com//cdn-record-files-pi/d8d6006d-de2d-4c4f-9085-a358016cf2fe/23d715d2-21c4-4503-beeb-ad33012fb1ca/0RX5228__2000__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+            alt=""
+          />
+          <div class="product-details">
+            <button class="view-button">
+              View&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+          <div class="favorite">
+            <button
+              class="add-to-favorites"
+              onclick="toggleHeartColor(this)"
+              onclick="addToFavorites(this)"
+            >
+              <i
+                id="heartIcon"
+                class="fa-solid fa-heart"
+                style="color: #8a8a8a"
+              ></i>
+            </button>
+          </div>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">1400EGP</span>
+        </div>
+
+        <div class="card-8 card">
+          <h4 class="product-title">roundly kids</h4>
+          <img
+            class="product-image"
+            src="https://images2.ray-ban.com//cdn-record-files-pi/cba98781-0b01-4b78-820c-af4700c794bd/01277a7e-eed1-4df7-af5a-af4700c7972d/0RX5406F__2001__P21__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+            alt=""
+          />
+          <div class="product-details">
+            <button class="view-button">
+              View&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+          <div class="favorite">
+            <button
+              class="add-to-favorites"
+              onclick="toggleHeartColor(this)"
+              onclick="addToFavorites(this)"
+            >
+              <i
+                id="heartIcon"
+                class="fa-solid fa-heart"
+                style="color: #8a8a8a"
+              ></i>
+            </button>
+          </div>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">920EGP</span>
+        </div>
+
+        <div class="card-9 card">
+          <h4 class="product-title">JA-JO OPTICS</h4>
+          <img
+            class="product-image"
+            src="https://images.ray-ban.com/is/image/RayBan/8053672863147__002.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+            alt=""
+          />
+          <div class="product-details">
+            <button class="view-button">
+              View&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+          <div class="favorite">
+            <button
+              class="add-to-favorites"
+              onclick="toggleHeartColor(this)"
+              onclick="addToFavorites(this)"
+            >
+              <i
+                id="heartIcon"
+                class="fa-solid fa-heart"
+                style="color: #8a8a8a"
+              ></i>
+            </button>
+          </div>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">1700EGP</span>
+        </div>
+
+        <div class="card-10 card">
+          <h4 class="product-title">Dragon</h4>
+          <img
+            class="product-image"
+            src="https://images2.ray-ban.com//cdn-record-files-pi/a762fefe-907e-481a-a025-a72300d29bea/f325fa0d-deb7-45e4-aadf-ad570160e501/0RX6375__2944__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+            alt=""
+          />
+          <div class="product-details">
+            <button class="view-button">
+              View&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+          <div class="favorite">
+            <button
+              class="add-to-favorites"
+              onclick="toggleHeartColor(this)"
+              onclick="addToFavorites(this)"
+            >
+              <i
+                id="heartIcon"
+                class="fa-solid fa-heart"
+                style="color: #8a8a8a"
+              ></i>
+            </button>
+          </div>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">2400EGP</span>
+        </div>
+
+        <div class="card-11 card">
+          <h4 class="product-title">RB6335 OPTICS</h4>
+          <img
+            class="product-image"
+            src="https://images2.ray-ban.com//cdn-record-files-pi/0325fe4d-d752-4632-913e-a44900178762/ab60ebef-1660-4a92-8458-ad9500f2b971/0RX6335__2503__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+            alt=""
+          />
+          <div class="product-details">
+            <button class="view-button">
+              View&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+          <div class="favorite">
+            <button
+              class="add-to-favorites"
+              onclick="toggleHeartColor(this)"
+              onclick="addToFavorites(this)"
+            >
+              <i
+                id="heartIcon"
+                class="fa-solid fa-heart"
+                style="color: #8a8a8a"
+              ></i>
+            </button>
+          </div>
+
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">2200EGP</span>
+        </div>
+
+        <div class="card-12 card">
+          <h4 class="product-title">Greated</h4>
+          <img
+            class="product-image"
+            src="https://images2.ray-ban.com//cdn-record-files-pi/9fa5d048-22a4-40bb-b392-a4c2007e5f72/c074019c-0303-4f3e-a3a9-ae9300c76882/0RX7025__2077__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+            alt=""
+          />
+          <div class="product-details">
+            <button class="view-button">
+              View&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+          <div class="favorite">
+            <button
+              class="add-to-favorites"
+              onclick="toggleHeartColor(this)"
+              onclick="addToFavorites(this)"
+            >
+              <i
+                id="heartIcon"
+                class="fa-solid fa-heart"
+                style="color: #8a8a8a"
+              ></i>
+            </button>
+          </div>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">1200EGP</span>
+        </div>
+
+        <div class="card-13 card">
+          <h4 class="product-title">HAWKEYE</h4>
+          <img
+            class="product-image"
+            src="https://images2.ray-ban.com//cdn-record-files-pi/7bf3b8df-ef37-47cd-ad88-acb8001e2475/bd264845-a3ca-4662-ad5b-acb8001e25c7/0RX5398__2144__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+            alt=""
+          />
+          <div class="product-details">
+            <button class="view-button">
+              View&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+          <div class="favorite">
+            <button
+              class="add-to-favorites"
+              onclick="toggleHeartColor(this)"
+              onclick="addToFavorites(this)"
+            >
+              <i
+                id="heartIcon"
+                class="fa-solid fa-heart"
+                style="color: #8a8a8a"
+              ></i>
+            </button>
+          </div>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">1280EGP</span>
+        </div>
+
+        <div class="card-14 card">
+          <h4 class="product-title">972638 OPTICS</h4>
+          <img
+            class="product-image"
+            src="https://images2.ray-ban.com//cdn-record-files-pi/206ecebe-4758-42b0-b2f7-a3580177ccbf/9d3dab21-ac5c-4657-a23c-afc800b3b442/0RX5279__2000__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+            alt=""
+          />
+          <div class="product-details">
+            <button class="view-button">
+              View&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+          <div class="favorite">
+            <button
+              class="add-to-favorites"
+              onclick="toggleHeartColor(this)"
+              onclick="addToFavorites(this)"
+            >
+              <i
+                id="heartIcon"
+                class="fa-solid fa-heart"
+                style="color: #8a8a8a"
+              ></i>
+            </button>
+          </div>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">980EGP</span>
+        </div>
+
+        <div class="card-14 card">
+          <h4 class="product-title">RB5228 OPTICS</h4>
+          <img
+            class="product-image"
+            src="https://images2.ray-ban.com//cdn-record-files-pi/d8d6006d-de2d-4c4f-9085-a358016cf2fe/23d715d2-21c4-4503-beeb-ad33012fb1ca/0RX5228__2000__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+            alt=""
+          />
+          <div class="product-details">
+            <button class="view-button">
+              View&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+          <div class="favorite">
+            <button
+              class="add-to-favorites"
+              onclick="toggleHeartColor(this)"
+              onclick="addToFavorites(this)"
+            >
+              <i
+                id="heartIcon"
+                class="fa-solid fa-heart"
+                style="color: #8a8a8a"
+              ></i>
+            </button>
+          </div>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">100EGP</span>
+        </div>
+      </div>
+
+      <!-- Women Sunlasses -->
+      <h3 id="womenSunglasses" class="categorie">Women Sunglasses</h3>
+      <div class="items-container">
+        <div class="card-1 card">
+          <h4 class="product-title">RB8356M SCUDERIA</h4>
+          <img
+            class="product-image"
+            src="https://images.ray-ban.com/is/image/RayBan/8056597458160__002.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+          />
+          <div class="product-details">
+            <button class="view-button">
+              View&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+          <div class="favorite">
+            <button
+              class="add-to-favorites"
+              onclick="toggleHeartColor(this)"
+              onclick="addToFavorites(this)"
+            >
+              <i
+                id="heartIcon"
+                class="fa-solid fa-heart"
+                style="color: #8a8a8a"
+              ></i>
+            </button>
+          </div>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">8500EGP</span>
+        </div>
+
+        <div class="card-2 card">
+          <h4 class="product-title">DRAGON</h4>
+          <img
+            class="product-image"
+            src="https://images.ray-ban.com/is/image/RayBan/8056597581943__002.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+            alt=""
+          />
+          <div class="product-details">
+            <button class="view-button">
+              View&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+          <div class="favorite">
+            <button class="add-to-favorites" onclick="addToFavorites(this)">
+              <i class="fa-solid fa-heart" style="color: #8a8a8a"></i>
+            </button>
+          </div>
+
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">9175EGP</span>
+        </div>
+        <div class="card-3 card">
+          <h4 class="product-title">AVIATOR</h4>
+          <img
+            class="product-image"
+            src="https://images.ray-ban.com/is/image/RayBan/8056597581905__002.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+            alt=""
+          />
+          <div class="product-details">
+            <button class="view-button">
+              View&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+          <div class="favorite">
+            <button
+              class="add-to-favorites"
+              onclick="toggleHeartColor(this)"
+              onclick="addToFavorites(this)"
+            >
+              <i
+                id="heartIcon"
+                class="fa-solid fa-heart"
+                style="color: #8a8a8a"
+              ></i>
+            </button>
+          </div>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">1150EGP</span>
+        </div>
+        <div class="card-4 card">
+          <h4 class="product-title">ROUND</h4>
+          <img
+            class="product-image"
+            src="https://images.ray-ban.com/is/image/RayBan/8056597581905__002.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+            alt=""
+          />
+          <div class="product-details">
+            <button class="view-button">
+              View&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+          <div class="favorite">
+            <button
+              class="add-to-favorites"
+              onclick="toggleHeartColor(this)"
+              onclick="addToFavorites(this)"
+            >
+              <i
+                id="heartIcon"
+                class="fa-solid fa-heart"
+                style="color: #8a8a8a"
+              ></i>
+            </button>
+          </div>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">1575EGP</span>
+        </div>
+
+        <div class="card-5 card">
+          <h4 class="product-title">WAYFARER</h4>
+          <img
+            class="product-image"
+            src="https://images.ray-ban.com/is/image/RayBan/8053672683912__002.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+            alt=""
+          />
+          <div class="product-details">
+            <button class="view-button">
+              View&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+          <div class="favorite">
+            <button
+              class="add-to-favorites"
+              onclick="toggleHeartColor(this)"
+              onclick="addToFavorites(this)"
+            >
+              <i
+                id="heartIcon"
+                class="fa-solid fa-heart"
+                style="color: #8a8a8a"
+              ></i>
+            </button>
+          </div>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">1230EGP</span>
+        </div>
+
+        <div class="card-6 card">
+          <h4 class="product-title">HAWKEYE</h4>
+          <img
+            class="product-image"
+            src="https://images2.ray-ban.com//cdn-record-files-pi/cb00ef99-1350-4ba6-b90f-afe300f6a3e6/83462cde-7259-437d-abfa-afe50000ebd5/0RX0298V__2034__P21__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+            alt=""
+          />
+          <div class="product-details">
+            <button class="view-button">
+              View&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+          <div class="favorite">
+            <button
+              class="add-to-favorites"
+              onclick="toggleHeartColor(this)"
+              onclick="addToFavorites(this)"
+            >
+              <i
+                id="heartIcon"
+                class="fa-solid fa-heart"
+                style="color: #8a8a8a"
+              ></i>
+            </button>
+          </div>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">1230EGP</span>
+        </div>
+
+        <div class="card-7 card">
+          <h4 class="product-title">R9</h4>
+          <img
+            class="product-image"
+            src="https://images.ray-ban.com/is/image/RayBan/8056597768405__002.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+            alt=""
+          />
+          <div class="product-details">
+            <button class="view-button">
+              View&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+          <div class="favorite">
+            <button
+              class="add-to-favorites"
+              onclick="toggleHeartColor(this)"
+              onclick="addToFavorites(this)"
+            >
+              <i
+                id="heartIcon"
+                class="fa-solid fa-heart"
+                style="color: #8a8a8a"
+              ></i>
+            </button>
+          </div>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">1400EGP</span>
+        </div>
+
+        <div class="card-8 card">
+          <h4 class="product-title">RB8327M SCUDERIA</h4>
+          <img
+            class="product-image"
+            src="https://images2.ray-ban.com//cdn-record-files-pi/79f93927-f053-4f53-82b6-ae75015e5799/f9fceeda-8ce4-4d39-b292-ae750171d850/0RB8327M__F06071__P21__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+            alt=""
+          />
+          <div class="product-details">
+            <button class="view-button">
+              View&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+          <div class="favorite">
+            <button
+              class="add-to-favorites"
+              onclick="toggleHeartColor(this)"
+              onclick="addToFavorites(this)"
+            >
+              <i
+                id="heartIcon"
+                class="fa-solid fa-heart"
+                style="color: #8a8a8a"
+              ></i>
+            </button>
+          </div>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">920EGP</span>
+        </div>
+
+        <div class="card-9 card">
+          <h4 class="product-title">JA-JO OPTICS</h4>
+          <img
+            class="product-image"
+            src="https://images.ray-ban.com/is/image/RayBan/8053672863147__002.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+            alt=""
+          />
+          <div class="product-details">
+            <button class="view-button">
+              View&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+          <div class="favorite">
+            <button
+              class="add-to-favorites"
+              onclick="toggleHeartColor(this)"
+              onclick="addToFavorites(this)"
+            >
+              <i
+                id="heartIcon"
+                class="fa-solid fa-heart"
+                style="color: #8a8a8a"
+              ></i>
+            </button>
+          </div>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">1700EGP</span>
+        </div>
+
+        <div class="card-10 card">
+          <h4 class="product-title">Dragon</h4>
+          <img
+            class="product-image"
+            src="https://images2.ray-ban.com//cdn-record-files-pi/a762fefe-907e-481a-a025-a72300d29bea/f325fa0d-deb7-45e4-aadf-ad570160e501/0RX6375__2944__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+            alt=""
+          />
+          <div class="product-details">
+            <button class="view-button">
+              View&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+          <div class="favorite">
+            <button
+              class="add-to-favorites"
+              onclick="toggleHeartColor(this)"
+              onclick="addToFavorites(this)"
+            >
+              <i
+                id="heartIcon"
+                class="fa-solid fa-heart"
+                style="color: #8a8a8a"
+              ></i>
+            </button>
+          </div>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">2400EGP</span>
+        </div>
+
+        <div class="card-11 card">
+          <h4 class="product-title">RB6335 OPTICS</h4>
+          <img
+            class="product-image"
+            src="https://images2.ray-ban.com//cdn-record-files-pi/0325fe4d-d752-4632-913e-a44900178762/ab60ebef-1660-4a92-8458-ad9500f2b971/0RX6335__2503__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+            alt=""
+          />
+          <div class="product-details">
+            <button class="view-button">
+              View&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+          <div class="favorite">
+            <button
+              class="add-to-favorites"
+              onclick="toggleHeartColor(this)"
+              onclick="addToFavorites(this)"
+            >
+              <i
+                id="heartIcon"
+                class="fa-solid fa-heart"
+                style="color: #8a8a8a"
+              ></i>
+            </button>
+          </div>
+
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">2200EGP</span>
+        </div>
+
+        <div class="card-12 card">
+          <h4 class="product-title">Greated</h4>
+          <img
+            class="product-image"
+            src="https://images.ray-ban.com/is/image/RayBan/8053672256123__002.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+            alt=""
+          />
+          <div class="product-details">
+            <button class="view-button">
+              View&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+          <div class="favorite">
+            <button
+              class="add-to-favorites"
+              onclick="toggleHeartColor(this)"
+              onclick="addToFavorites(this)"
+            >
+              <i
+                id="heartIcon"
+                class="fa-solid fa-heart"
+                style="color: #8a8a8a"
+              ></i>
+            </button>
+          </div>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">1200EGP</span>
+        </div>
+
+        <div class="card-13 card">
+          <h4 class="product-title">HAWKEYE</h4>
+          <img
+            class="product-image"
+            src="https://images2.ray-ban.com//cdn-record-files-pi/7bf3b8df-ef37-47cd-ad88-acb8001e2475/bd264845-a3ca-4662-ad5b-acb8001e25c7/0RX5398__2144__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+            alt=""
+          />
+          <div class="product-details">
+            <button class="view-button">
+              View&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+          <div class="favorite">
+            <button
+              class="add-to-favorites"
+              onclick="toggleHeartColor(this)"
+              onclick="addToFavorites(this)"
+            >
+              <i
+                id="heartIcon"
+                class="fa-solid fa-heart"
+                style="color: #8a8a8a"
+              ></i>
+            </button>
+          </div>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">1280EGP</span>
+        </div>
+
+        <div class="card-14 card">
+          <h4 class="product-title">AVIATOR FLASH</h4>
+          <img
+            class="product-image"
+            src="https://images.ray-ban.com/is/image/RayBan/8053672000511__002.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
+            alt=""
+          />
+          <div class="product-details">
+            <button class="view-button">
+              View&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+          <div class="favorite">
+            <button
+              class="add-to-favorites"
+              onclick="toggleHeartColor(this)"
+              onclick="addToFavorites(this)"
+            >
+              <i
+                id="heartIcon"
+                class="fa-solid fa-heart"
+                style="color: #8a8a8a"
+              ></i>
+            </button>
+          </div>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">980EGP</span>
+        </div>
+
+        <div class="card-14 card">
+          <h4 class="product-title">JACKIE OHH II</h4>
+          <img
+            class="product-image"
+            src="https://images2.ray-ban.com//cdn-record-files-pi/406befbd-f0ec-4443-9e01-a35700ef7a4e/97cbc19b-4135-49f1-b5ef-ad5300609d77/0RB4098__710_71__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2"
             alt=""
           />
           <div class="product-details">

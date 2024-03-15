@@ -149,6 +149,7 @@
         </span>
       </div>
     </div>
+
     <!--      OPEN CAMERA      -->
     <div class="open">
       <img
@@ -174,6 +175,7 @@
         </button>
       </div>
     </div>
+
     <!---- ********************************  end   ************************************************* -->
     <!--$$$$$$$ footer $$$$$-->
 
@@ -256,17 +258,7 @@
           }
         });
     </script>
-    <script>
-      navigator.mediaDevices
-        .getUserMedia({ video: true })
-        .then(function (stream) {
-          var videoElement = document.querySelector("video");
-          videoElement.srcObject = stream;
-        })
-        .catch(function (error) {
-          console.log("Error accessing camera:", error);
-        });
-    </script>
+
     <script src="./js/script.js"></script>
     <script src="./js2/bootstrap.bundle.min.js"></script>
   </body>

@@ -580,7 +580,6 @@ img {
   display: flex;
   justify-content: center;
   margin-left: 30px;
-  position: fixed;
 }
 
 #searchInput {
