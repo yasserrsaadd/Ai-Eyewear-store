@@ -1,5 +1,6 @@
 body {
   background-image: linear-gradient(to right, #2c3e50, #4ca1af);
+  overflow-x: hidden;
 
 }
 
@@ -1107,4 +1108,19 @@ img {
     left: 20px;
   }
 
+}
+
+/*?---------------oval shape-------------------------*/
+.face-shape {
+  margin-left: 35%;
+}
+
+.oval img {
+  width: 90px;
+
+}
+
+.oval h1 {
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.667);
 }

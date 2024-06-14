@@ -1,0 +1,175 @@
+body {
+    
+    background-color: #dcdedc;
+     overflow: hidden; /* Prevent scrolling */
+    
+  }
+
+  .video2 {
+    margin-top: 10px;
+    position: relative;
+    width: 720px;
+    height: 560px;
+    border: 2px solid #ff0000; /* Frame border */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow */
+}
+
+
+  
+
+  canvas {
+    position: absolute;
+    position: relative;
+    bottom: 555px;
+  }
+
+  /* Navbar */
+nav {
+    font-family: 'Titillium Web';
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+}
+
+nav * {
+    box-sizing: border-box;
+    transition: all .35s ease;
+}
+
+nav li {
+    display: inline-block;
+    list-style: outside none none;
+    margin: .5em 1em;
+    padding: 0;
+}
+
+nav a {
+    padding: .5em .8em;
+    color: #0fa854;
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav a::before,
+nav a::after {
+    content: '';
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    transition: all .35s ease;
+    opacity: 0;
+}
+
+nav a::before {
+    content: '';
+    right: 0;
+    top: 0;
+    border-top: 3px solid #3E8914;
+    border-right: 3px solid #2E640F;
+    transform: translate(-100%, 50%);
+}
+
+nav a:after {
+    content: '';
+    left: 0;
+    bottom: 0;
+    border-bottom: 3px solid #2E640F;
+    border-left: 3px solid #3E8914;
+    transform: translate(100%, -50%)
+}
+
+nav a:hover:before,
+nav a:hover:after {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+nav a:hover {
+    color: #3DA35D;
+}
+
+#line {
+    border-right: 20px;
+    background-color: #EFE9CC;
+    height: 60px;
+    width: 3px;
+    position: relative;
+    right: 10px;
+}
+
+.nav-submit-btn {
+    border-radius: 15px;
+}
+
+.nav-submit-btn:hover {
+    background-color: #1d5c63;
+}
+
+/* Navbar */
+.navbar-toggler-icon {
+    background-color: #1d5c63;
+    /* Change to your desired color */
+}
+
+
+/*? ****************************** St1art nav  *******************************/
+.header {
+    text-align: center;
+
+    color: #FFF7E0;
+    background-color: #E1F0DA;
+}
+
+
+
+
+
+.nav-link:hover {
+    cursor: pointer;
+    transform: scaleX(1);
+    color: #658361;
+    text-decoration: underline
+}
+
+.right {
+    color: #f9f9f9;
+    background-color: #436850;
+    font-size: 1rem;
+
+}
+
+.fa-magnifying-glass {
+    margin: 0 0% 0 1%;
+    color: #436850;
+}
+
+.fa-magnifying-glass:hover,
+.fa-cart-shopping:hover,
+.fa-user:hover,
+.fa-heart:hover {
+    cursor: pointer;
+    transform: scaleX(1.1);
+    color: #183a1d
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1.5rem;
+    border-radius: 6px;
+    position: relative;
+}
+
+.text{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    gap: 8px;
+}
+h5{
+    position: relative;
+    top: 10px;
+}

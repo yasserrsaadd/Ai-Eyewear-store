@@ -1,0 +1,465 @@
+[
+  {
+      "_id": "1",
+      "name": "CLUBMASTER OPTICS",
+      "image": "https://images.ray-ban.com/is/image/RayBan/8053672278361__002.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+      "price": 1500,
+      "description": "The Classic Vision glasses offer timeless style and exceptional clarity. Perfect for everyday wear.",
+      "category": "Men Eye Glasses"
+  },
+  {
+      "_id": "2",
+      "name": "DRAGON EDITION",
+      "image": "https://images2.ray-ban.com//cdn-record-files-pi/2b10fe8d-f5a7-4dd5-97ca-a3570164314d/2d1db0b8-9f8e-463d-8950-ae9300c37f20/0RX5206__2445__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+      "price": 1100,
+      "description": "With a modern urban design, these frames combine style and functionality for the contemporary man.",
+      "category": "Men Eye Glasses"
+  },
+  {
+      "_id": "3",
+      "name": "AVIATOR OPTICS",
+      "image": "https://images.ray-ban.com/is/image/RayBan/8053672552065__002.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+      "price": 2200,
+      "description": "Elevate your look with the Executive Elite glasses, featuring a sleek design and premium materials.",
+      "category": "Men Eye Glasses"
+  },
+  {
+      "_id": "4",
+      "name": "ROUND METAL",
+      "image": "https://images2.ray-ban.com//cdn-record-files-pi/58c83417-936c-43df-b6da-a63200251306/f40c9405-49ce-4919-8601-a73800373537/0RX6377__2909_030A.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+      "price": 980,
+      "description": "Embrace retro vibes with the Retro Chic glasses, a stylish accessory for any outfit.",
+      "category": "Men Eye Glasses"
+  },
+  {
+      "_id": "7",
+      "name": "RB5228 OPTICS",
+      "image": "https://images2.ray-ban.com//cdn-record-files-pi/d8d6006d-de2d-4c4f-9085-a358016cf2fe/23d715d2-21c4-4503-beeb-ad33012fb1ca/0RX5228__2000__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+      "price": 2000,
+      "description": "Achieve a sophisticated look with these stylish frames, perfect for formal occasions and everyday wear.",
+      "category": "Men Eye Glasses"
+  },
+  {
+      "_id": "8",
+      "name": "RB5406 OPTICS",
+      "image": "https://images2.ray-ban.com//cdn-record-files-pi/cba98781-0b01-4b78-820c-af4700c794bd/01277a7e-eed1-4df7-af5a-af4700c7972d/0RX5406F__2001__P21__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+      "price": 850,
+      "description": "Keep it casual yet trendy with the Casual Cool glasses, featuring a laid-back design and lightweight construction.",
+      "category": "Men Eye Glasses"
+  },
+  {
+      "_id": "9",
+      "name": "JA-JO OPTICS",
+      "image": "https://images.ray-ban.com/is/image/RayBan/8053672863147__002.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+      "price": 1200,
+      "description": "Channel retro charm with the Vintage Vibes glasses, a must-have accessory for fashion-forward individuals.",
+      "category": "Men Eye Glasses"
+  },
+  {
+      "_id": "10",
+      "name": "RB6375 OPTICS",
+      "image": "https://images2.ray-ban.com//cdn-record-files-pi/a762fefe-907e-481a-a025-a72300d29bea/f325fa0d-deb7-45e4-aadf-ad570160e501/0RX6375__2944__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+      "price": 1050,
+      "description": "Opt for understated elegance with the Minimalist Marvel glasses, boasting clean lines and timeless appeal.",
+      "category": "Men Eye Glasses"
+  },
+  {
+      "_id": "12",
+      "name": "RB7025 OPTIC",
+      "image": "https://images2.ray-ban.com//cdn-record-files-pi/9fa5d048-22a4-40bb-b392-a4c2007e5f72/c074019c-0303-4f3e-a3a9-ae9300c76882/0RX7025__2077__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+      "price": 1250,
+      "description": "Embark on urban adventures with the Urban Explorer glasses, offering style and functionality in one.",
+      "category": "Men Eye Glasses"
+  },
+  {
+      "_id": "13",
+      "name": "HAWKEYE OPTICS",
+      "image": "https://images2.ray-ban.com//cdn-record-files-pi/7bf3b8df-ef37-47cd-ad88-acb8001e2475/bd264845-a3ca-4662-ad5b-acb8001e25c7/0RX5398__2144__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+      "price": 1950,
+      "description": "Project professionalism with the Professional Edge glasses, crafted for the modern-day professional.",
+      "category": "Men Eye Glasses"
+  },
+  {
+      "_id": "14",
+      "name": "Sleek Profile",
+      "image": "https://images2.ray-ban.com//cdn-record-files-pi/206ecebe-4758-42b0-b2f7-a3580177ccbf/9d3dab21-ac5c-4657-a23c-afc800b3b442/0RX5279__2000__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+      "price": 1400,
+      "description": "Achieve a sleek profile with these stylish eyeglasses, designed to enhance your overall look.",
+      "category": "Men Eye Glasses"
+  },
+  
+    {
+      "_id": "20",
+      "name": "AVIATOR",
+      "image": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/14/309093/1.jpg?3704",
+      "price": 2200,
+      "description": "Elevate your look with the Executive Elite glasses, featuring a sleek design and premium materials.",
+      "category": "Women Eye Glasses"
+    },
+    {
+      "_id": "22",
+      "name": "WAYFARER",
+      "image": "https://images.ray-ban.com/is/image/RayBan/8053672683912__002.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+      "price": 2345,
+      "description": "Stay ahead of the curve with the Tech Visionary glasses, offering cutting-edge design and superior optics.",
+      "category": "Women Eye Glasses"
+    },
+    {
+      "_id": "29",
+      "name": "ORIGINAL WAYFARER",
+      "image": "https://images2.ray-ban.com//cdn-record-files-pi/785cd2a8-5933-4d14-b145-a35800039b33/f150fe44-f372-4f0e-add9-b01300c1c1b9/0RB2140__901__P21__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+      "price": 511,
+      "description": "The Classic Vision glasses offer timeless style and exceptional clarity. Perfect for everyday wear.",
+      "category": "Men Sun Glasses"
+    },
+    {
+      "_id": "30",
+      "name": "Original Staylass",
+      "image": "https://images2.ray-ban.com//cdn-record-files-pi/0f87434e-a2e9-4000-8d2e-afe3009f4f4f/0e0473f7-93b2-4e58-ae89-afe400b18948/0RB3765__919631__P21__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+      "price": 1900,
+      "description": "With a modern urban design, these frames combine style and functionality for the contemporary man.",
+      "category": "Men Sun Glasses"
+    },
+    {
+      "_id": "32",
+      "name": "AVIATOR TOTAL BLACK",
+      "image": "https://images2.ray-ban.com//cdn-record-files-pi/c07af352-2afe-408f-b4b1-abc2018648ee/47d8f7e0-83e8-4511-9d8f-acb40125377c/0RB3025__002_48__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+      "price": 9850,
+      "description": "Embrace retro vibes with the Retro Chic glasses, a stylish accessory for any outfit.",
+      "category": "Men Sun Glasses"
+    },
+    {
+      "_id": "33",
+      "name": "NEW WAYFARER",
+      "image": "https://images2.ray-ban.com//cdn-record-files-pi/2072a667-899f-4fe7-bb3a-a3590018edf9/021dc39d-b50b-49dc-9600-acfd006926be/0RB2132__601S78__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+      "price": 1322,
+      "description": "Stay ahead of the curve with the Tech Visionary glasses, offering cutting-edge design and superior optics.",
+      "category": "Men Sun Glasses"
+    },
+    {
+      "_id": "34",
+      "name": "BILL ONE",
+      "image": "https://images2.ray-ban.com//cdn-record-files-pi/b82aeda8-0918-4623-8d71-afe300a5aa3b/12d5434c-f9bf-4fc0-804a-afe400af5ae2/0RB2205__1397R5__P21__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+      "price": 1350,
+      "description": "Designed for the active lifestyle, the Sporty Edge glasses provide comfort and durability for all-day wear.",
+      "category": "Men Sun Glasses"
+    },
+    {
+      "_id": "35",
+      "name": "MEGA CLUBMASTER",
+      "image": "https://images2.ray-ban.com//cdn-record-files-pi/cbdd826c-7c5e-4d96-9c22-aff900ed6832/b7c243b2-78a5-4092-888e-aff900f72851/0RB0316S__954_O9__P21__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+      "price": 2366,
+      "description": "Achieve a sophisticated look with these stylish frames, perfect for formal occasions and everyday wear.",
+      "category": "Men Sun Glasses"
+    },
+    {
+      "_id": "36",
+      "name": "RB4429",
+      "image": "https://images2.ray-ban.com//cdn-record-files-pi/a47119c6-d693-487a-bc5e-afe300a4d715/de20c61f-9b7a-4122-ac77-afe401759bd4/0RB4429__672151__P21__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+      "price": 850,
+      "description": "Keep it casual yet trendy with the Casual Cool glasses, featuring a laid-back design and lightweight construction.",
+      "category": "Men Sun Glasses"
+    },
+    {
+      "_id": "37",
+      "name": "KILIANE BIO-BASED",
+      "image": "https://images2.ray-ban.com//cdn-record-files-pi/1686e426-ea84-47d7-b30c-af23009f1e9e/8d90d951-ebbd-4cc1-a224-af2300d84b50/0RB4395__667771__P21__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+      "price": 1322,
+      "description": "Channel retro charm with the Vintage Vibes glasses, a must-have accessory for fashion-forward individuals.",
+      "category": "Men Sun Glasses"
+    },
+    {
+      "_id": "38",
+      "name": "RB6375 OPTICS",
+      "image": "https://images2.ray-ban.com//cdn-record-files-pi/ec04a3ae-916d-4cbd-a691-a3d30001b05d/5d8261a8-931c-4f90-a14f-acfd003b9a31/0RB2180__710_73__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+      "price": 1050,
+      "description": "Opt for understated elegance with the Minimalist Marvel glasses, boasting clean lines and timeless appeal.",
+      "category": "Men Sun Glasses"
+    },
+    {
+      "_id": "39",
+      "name": "RB2180",
+      "image": "https://images2.ray-ban.com//cdn-record-files-pi/2f8008b9-714d-4d7a-be5b-b0c200a8f80a/f4e76a65-97a4-46a7-8509-b0dc0161b26a/0RB4433M__F625H2__P21__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+      "price": 1700,
+      "description": "Make a bold statement with these eyeglasses, featuring a distinctive design and striking details.",
+      "category": "Men Sun Glasses"
+    },
+    
+    {
+      "_id": "40",
+      "name": "RB8356M SCUDERIA",
+      "image": "https://images.ray-ban.com/is/image/RayBan/8056597458160__002.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+      "price": 1890,
+      "description": "Radiate elegance with these floral-inspired glasses, featuring delicate details and feminine charm.",
+      "category": "Women Sun Glasses"
+    },
+    {
+      "_id": "41",
+      "name": "DRAGON",
+      "image": "https://images.ray-ban.com/is/image/RayBan/8056597581943__002.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+      "price": 1550,
+      "description": "Embrace chic sophistication with these stylish glasses, designed to elevate your everyday look.",
+      "category": "Women Sun Glasses"
+    },
+    {
+      "_id": "42",
+      "name": "Glamorous Diva",
+      "image": "https://images.ray-ban.com/is/image/RayBan/8056597581905__002.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+      "price": 2190,
+      "description": "Channel your inner diva with these glamorous glasses, exuding confidence and allure.",
+      "category": "Women Sun Glasses"
+    },
+    {
+      "_id": "45",
+      "name": "Feminine Flair",
+      "image": "https://images2.ray-ban.com//cdn-record-files-pi/cb00ef99-1350-4ba6-b90f-afe300f6a3e6/83462cde-7259-437d-abfa-afe50000ebd5/0RX0298V__2034__P21__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+      "price": 1260,
+      "description": "Infuse your look with feminine flair with these charming glasses, perfect for the modern woman.",
+      "category": "Women Sun Glasses"
+    },
+    {
+      "_id": "46",
+      "name": "Timeless Beauty",
+      "image": "https://images.ray-ban.com/is/image/RayBan/8056597768405__002.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+      "price": 1980,
+      "description": "Embrace timeless beauty with these classic glasses, offering enduring style and sophistication.",
+      "category": "Women Sun Glasses"
+    },
+    {
+      "_id": "47",
+      "name": "Bold Vogue",
+      "image": "https://images2.ray-ban.com//cdn-record-files-pi/79f93927-f053-4f53-82b6-ae75015e5799/f9fceeda-8ce4-4d39-b292-ae750171d850/0RB8327M__F06071__P21__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+      "price": 1640,
+      "description": "Make a bold statement with these vogue glasses, featuring daring designs and trend-setting appeal.",
+      "category": "Women Sun Glasses"
+    },
+    
+    {
+      "_id": "50",
+      "name": "CLUBMASTER Kids",
+      "image": "https://images.ray-ban.com/is/image/RayBan/8056597861267__002.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+      "price": 1646,
+      "description": "The Classic Vision glasses offer timeless style and exceptional clarity. Perfect for everyday wear.",
+      "category": "Kids Glasses"
+    },
+    {
+      "_id": "51",
+      "name": "DRAGON Kids",
+      "image": "https://images.ray-ban.com/is/image/RayBan/8056597888981__002.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+      "price": 1668,
+      "description": "With a modern urban design, these frames combine style and functionality for the contemporary man.",
+      "category": "Kids Glasses"
+    },
+    {
+      "_id": "52",
+      "name": "AVIATOR kids",
+      "image": "https://images.ray-ban.com/is/image/RayBan/8056597861168__002.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+      "price": 2200,
+      "description": "Elevate your look with the Executive Elite glasses, featuring a sleek design and premium materials.",
+      "category": "Kids Glasses"
+    },
+    {
+      "_id": "53",
+      "name": "ROUND kids",
+      "image": "https://images2.ray-ban.com//cdn-record-files-pi/ba0c2cc9-631b-4109-8200-a68a00a51d25/fd387a3d-ac83-49db-871e-acfe0046bf84/0RX3447V__2500__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+      "price": 1211,
+      "description": "Embrace retro vibes with the Retro Chic glasses, a stylish accessory for any outfit.",
+      "category": "Kids Glasses"
+    },
+    {
+      "_id": "54",
+      "name": "WAYFARER kids",
+      "image": "https://images2.ray-ban.com//cdn-record-files-pi/87293432-79c0-4ace-8b02-abfe00a229a5/33941442-0a0a-4caf-90ac-abfe00c19085/0RJ9071S__70624L_030A.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+      "price": 1800,
+      "description": "Stay ahead of the curve with the Tech Visionary glasses, offering cutting-edge design and superior optics.",
+      "category": "Kids Glasses"
+    },
+
+    {
+      "_id": "57",
+      "name": "JA-JO OPTICS",
+      "image": "https://images.ray-ban.com/is/image/RayBan/8056597537896__002.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+      "price": 1234,
+      "description": "Channel retro charm with the Vintage Vibes glasses, a must-have accessory for fashion-forward individuals.",
+      "category": "Kids Glasses"
+    },
+    {
+      "_id": "59",
+      "name": "RB6335 OPTICS",
+      "image": "https://images2.ray-ban.com//cdn-record-files-pi/0325fe4d-d752-4632-913e-a44900178762/ab60ebef-1660-4a92-8458-ad9500f2b971/0RX6335__2503__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+      "price": 1700,
+      "description": "Make a bold statement with these eyeglasses, featuring a distinctive design and striking details.",
+      "category": "Kids Glasses"
+    },
+    {
+      "_id": "60",
+      "name": "oval frame",
+      "image": "https://images.ray-ban.com/is/image/RayBan/8056597448116__002.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+      "price": 2081,
+      "description": "Make a bold statement with these eyeglasses, featuring a distinctive design and striking details.",
+      "category": "Women Eye Glasses"
+    },
+    
+  {
+    "_id": "61",
+    "name": "oval frame",
+    "image": "https://images.ray-ban.com/is/image/RayBan/8056597123181__002.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+    "price": 1247,
+    "description": "Make a bold statement with these eyeglasses, featuring a distinctive design and striking details.",
+    "category": "Women Eye Glasses"
+  },
+
+ { 
+  "_id": "62",
+  "name": "Ricardo Metal",
+  "image": "https://images2.ray-ban.com//cdn-record-files-pi/92081626-7c7e-4324-91ea-aa6201589279/4ec1232e-041d-4b0a-9da4-ae3c00566216/0RX5380__5947__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+  "price": 1495,
+  "description": "Brand Ricardo Type Glasses frame Frame material Metal Model number VRicardo9012C42047 Bridge size 20 millimeter Adjustable silicone nose pads Contrast temple tips Logo detail on temples",
+  "category": "Women Eye Glasses"
+},
+{ 
+  "_id": "63",
+  "name": "Le Marais",
+  "image": "https://images2.ray-ban.com//cdn-record-files-pi/7c1ac594-5bf6-4f00-b2df-a94a012d9399/a1b936fc-56a2-4ad8-94a3-ad53006e68df/0RX3648V__2509__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+  "price": 3085,
+  "description": "Make a bold statement with these eyeglasses, featuring a distinctive design and striking details.",
+  "category": "Women Eye Glasses"
+},
+{ 
+  "_id": "65",
+  "name": "Dalston ",
+  "image": "https://images2.ray-ban.com//cdn-record-files-pi/d6e62d4c-0ce5-4bea-8115-a9f900f4cc49/66e07fdd-ff3f-4ce1-946c-ad42015f243b/0RX4314V__5937__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+  "price": 3085,
+  "description": "Ledger is an intricately detailed, round lensed set of eyeglasses. A metallic Golden finish gives this frame a luxurious vibe while an embossed nose bridge and hinges make Ledger stand out in the best way. A minimalist design makes this frame stylish and lightweight.",
+  "category": "Women Eye Glasses"
+},
+{
+   "_id": "66",
+  "name": "DOLCE & GABBANA ",
+  "image": "https://images2.ray-ban.com//cdn-record-files-pi/af9f966e-1198-40d1-8e90-ac80011d0a7c/63022556-324e-4f13-97e0-ac810028ef28/0RX8769__1228__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+  "price": 12035,
+  "description": " revamp square eyewear with a fresh, chiseled frame that is as fashionable as it is confident. A carved top frame and nose bridge meet multi-width temples prominently displaying the brand monogram for a dash of effortless cool.",
+  "category": "Men Sun Glasses"
+},
+{
+  "_id": "67",
+ "name": "Brad Glossy",
+ "image": "https://images.ray-ban.com/is/image/RayBan/8056597434775__002.png?impolicy=RB_Product_clone&width=720&bgc=%23f2f2f2",
+ "price": 3083,
+ "description": " Included High quality and stylish computer glasses to protect your eyes from Blue Light of digital devices. It will provide you with better sleep and a healthier life.",
+ "category": "Men Eye Glasses"
+},
+{
+"_id": "68",
+"name": "Brad Black",
+"image": "https://images2.ray-ban.com//cdn-record-files-pi/d2e5e409-7763-4844-8d20-ac6800781205/8365936e-df23-4675-8a23-ac6800898631/0RX6471__2509__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+"price": 3083,
+"description": " Included High quality and stylish computer glasses to protect your eyes from Blue Light of digital devices. It will provide you with better sleep and a healthier life.",
+"category": "Men Eye Glasses"
+},
+{
+"_id": "69",
+"name": "Big Square Rim Sunglasses",
+"image": "https://images2.ray-ban.com//cdn-record-files-pi/7727f98f-3277-4051-b009-a87a015158c9/3027e3bc-dcae-416e-91e7-adc200fabdc1/0RB3594__9115S0__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+"price": 249,
+"description": " Included High quality and stylish computer glasses to protect your eyes from Blue Light of digital devices. It will provide you with better sleep and a healthier life.",
+"category": "Women Sun Glasses"
+},
+{
+"_id": "70",
+"name": " NIDOVIX",
+"image": "https://images2.ray-ban.com//cdn-record-files-pi/7c8d24b2-3c13-43c7-8655-a3dc00d5feb2/6fd9f9db-a7e7-4375-9797-ad5701461b9d/0RB2447__1157__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+"price": 400,
+"description": " Included High quality and stylish computer glasses to protect your eyes from Blue Light of digital devices. It will provide you with better sleep and a healthier life.",
+"category": "Women Eye Glasses"
+},
+{
+"_id": "71",
+"name": "Astoria",
+"image": "https://images2.ray-ban.com//cdn-record-files-pi/f4491b93-f4fb-4512-8d95-aa7001708a5c/2830f7bb-3927-4da3-a439-ad7101726490/0RX5268__5976__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+"price": 400,
+"description": " High quality and stylish computer glasses to protect your eyes from Blue Light of digital devices. It will provide you with better sleep and a healthier life.",
+"category": "Women Sun Glasses"
+},
+{
+"_id": "72",
+"name": "Cat-Eye Eyeglasses",
+"image": "https://images2.ray-ban.com//cdn-record-files-pi/d1727fc5-4759-4255-b594-abed016b5641/c492ba13-412e-47ef-9254-ad57014c598a/0RX5387__8092__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+"price": 12000,
+"description": " High quality and stylish computer glasses to protect your eyes from Blue Light of digital devices. It will provide you with better sleep and a healthier life.",
+"category": "Women Eye Glasses"
+},
+{
+"_id": "73",
+"name": "EYE'M IRRESISTIBLE",
+"image": "https://images2.ray-ban.com//cdn-record-files-pi/4123b678-058f-4efe-a93e-a47700c28954/d9103895-5206-4ec6-b6be-ad200187c62d/0RB2132__6188__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+"price": 12000,
+"description": " High quality and stylish computer glasses to protect your eyes from Blue Light of digital devices. It will provide you with better sleep and a healthier life.",
+"category": "Women Sun Glasses"
+},
+{
+"_id": "74",
+"name": "DONNA",
+"image": "https://images2.ray-ban.com//cdn-record-files-pi/1bf00481-dbe4-456d-bb01-a359015fd38c/2a7be5f5-6827-4c1a-87d2-ad57014830bb/0RB4195__601S9A__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+"price": 350,
+"description": " DONNA Cool Unisex Oversized Flat Top Sunglasses Square Aviator Shades D89-A12(Gradient ",
+"category": "Women Sun Glasses"
+},
+{
+  "_id": "75",
+  "name": "SOJOS Retro Oversized ",
+  "image": "https://images2.ray-ban.com//cdn-record-files-pi/53077cd7-01fc-443c-99c3-a35701000401/fb3dab08-1eb0-4305-a3a2-ad5701366033/0RB4101__860_51__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+  "price": 1250,
+  "description": " SOJOS Retro Oversized Square Polarized Sunglasses for Women and Men Vintage Shades UV400 Classic Large Metal Sun Glasses",
+  "category": "Women Sun Glasses"
+  },
+  {
+    "_id": "76",
+    "name": "Versace ",
+    "image": "https://images.ray-ban.com/is/image/RayBan/805289384489__002.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+    "price": 1250,
+    "description": " SOJOS Retro Oversized Square Polarized Sunglasses for Women and Men Vintage Shades UV400 Classic Large Metal Sun Glasses",
+    "category": "Women Eye Glasses"
+    },
+    {
+      "_id": "77",
+      "name": "Metal Rimless ",
+      "image": "https://images.ray-ban.com/is/image/RayBan/8056597261111__002.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+      "price": 1450,
+      "description": " Shop for Rimless Eyeglasses from a Huge Collection - Get Best Rimless Eyeglasses Online from Jumia Egypt | Fast Delivery - Free Returns.",
+      "category": "Women Eye Glasses"
+      },
+      {
+        "_id": "78",
+        "name": "SILVER RIMLESS GLASSES ",
+        "image": "https://images2.ray-ban.com//cdn-record-files-pi/42dc0368-9e38-4486-b93c-a9d700fba555/9781b781-57f9-41c5-ab65-adc5011667cb/0RX5375__2126__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+        "price": 7500,
+        "description": " These are unused frames. They come with demo lenses and can easily accommodate your prescription or sunglass lenses",
+        "category": "Men Eye Glasses"
+        },
+        {
+          "_id": "79",
+          "name": "Rimless Rectangle ",
+          "image": "https://images.ray-ban.com/is/image/RayBan/8056597139120__002.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+          "price": 1985,
+          "description": " Lightweight And Durable: Rimless Rectangle SunglassesThe colorful rimless rectangle sunglasses are with the most cutting-edge design style, very lightweight frames, and wood Temples give you a stress-free wearing experience, reinforced metal hinges aredesigned to prevent the loosening of screws, make the sunglasses more stable, and look more fashionable, High-quality polycarbonate lenses, comfortable silicone nose pads, ultra-light exquisite temples, all the details make it durable, shatterproof,and fashionable",
+          "category": "Men Sun Glasses"
+          },
+          {
+            "_id": "80",
+            "name": "Rimless Sunglasses  ",
+            "image": "https://images.ray-ban.com/is/image/RayBan/8056597133012__002.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+            "price": 1985,
+            "description": " Made of high quality PC Polycarbonate material, durable enough for long time using.  Retro style",
+            "category": "Women Sun Glasses"
+            },
+            {
+              "_id": "81",
+              "name": "RWAYFARER EASE",
+              "image": "https://images2.ray-ban.com//cdn-record-files-pi/50c05682-8e9f-4de9-84e5-a71c00210600/671ab52c-c4be-47c5-b18e-acfe00402b56/0RB4340__601__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
+              "price": 1825,
+              "description": " Made of high quality PC Polycarbonate material, durable enough for long time using.  Retro style",
+              "category": "Women Sun Glasses"
+              }
+  ]
+

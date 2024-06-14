@@ -16,6 +16,11 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     />
     <link rel="stylesheet" href="css/virtualTryOn.css" />
+
+    <!-- javascript call  -->
+    <script defer src="js/facedetection/face-api.min.js"></script>
+    <script defer src="js/facedetection/script2.js"></script>
+    <!-- javascript call -->
   </head>
   <body>
     <!-- Navigation bar (1) -->
@@ -163,20 +168,14 @@
         <video id="video-element" autoplay></video>
       </div>
       <div class="btn-container">
-        <button id="open-camera" class="btn">Open Camera</button>
-        <button id="take-photo" class="btn" style="display: none">
-          Take Photo
-        </button>
-        <button id="save-photo" class="btn" style="display: none">
-          Save Photo
-        </button>
-        <button id="close-camera" class="btn" style="display: none">
-          Close Camera
-        </button>
+        <a href="faceDetection.html"><button id="open-camera" class="btn">Open Camera</button></a>
       </div>
     </div>
 
     <!---- ********************************  end   ************************************************* -->
+
+
+    
     <!--$$$$$$$ footer $$$$$-->
 
     <footer class="bg-dark text-light py-3">
@@ -261,5 +260,6 @@
 
     <script src="./js/script.js"></script>
     <script src="./js2/bootstrap.bundle.min.js"></script>
+    <script src="./face-api.js-master/script1.js"></script>
   </body>
 </html>
